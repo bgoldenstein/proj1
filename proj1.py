@@ -15,8 +15,8 @@ def csv_reader(filename):
     Load employee data from a CSV file.
     """
     employees = {}
-    with open(filename, "r") as data:
-        reader = csv.DictReader(data)
+    with open(filename, "r") as file:
+        reader = csv.DictReader(file)
         for i in reader:
             id = i["employee_id"]
             employees["employee_id"] = {
@@ -83,6 +83,12 @@ def csv_writer(data, filename):
     """
     Write data to a CSV file.
     """
+    with open(filename, "w", newline="") as file:
+        writer = csv.DictReader(file)
+        writer.writerow(['Race&Gender', 'num_employees'])
+        for i, j in data.items():
+            writer.writerow([i, j])
+
     pass
 
 
