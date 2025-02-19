@@ -73,9 +73,9 @@ def count_race_and_gender(employees):
     for i, j in employees.items():
         combo = j["race"] + "_" + j["gender"]
         if combo in raceAndGenderCount:
-            raceAndGenderCount[combo] = 1
-        else:
             raceAndGenderCount[combo] += 1
+        else:
+            raceAndGenderCount[combo] = 1
     return raceAndGenderCount
 
 
@@ -84,7 +84,7 @@ def csv_writer(data, filename):
     Write data to a CSV file.
     """
     with open(filename, "w", newline="") as file:
-        writer = csv.DictReader(file)
+        writer = csv.writer(file)
         writer.writerow(['Race&Gender', 'num_employees'])
         for i, j in data.items():
             writer.writerow([i, j])
@@ -177,47 +177,47 @@ def main():
     race_gender_counts_total = count_race_or_gender(employee_data)
     race_gender_counts_after_layoffs = count_race_or_gender(employees_before_1964)
 
-#     # Task 3: Count employees by race and gender combinations before and after layoffs
-#     gendered_race_counts_total = count_race_and_gender(employee_data)
-#     gendered_race_counts_after_layoffs = count_race_and_gender(employees_before_1964)
+    # Task 3: Count employees by race and gender combinations before and after layoffs
+    gendered_race_counts_total = count_race_and_gender(employee_data)
+    gendered_race_counts_after_layoffs = count_race_and_gender(employees_before_1964)
 
-#     # Print and interpret the results
-#     print("Analysis Results:")
-#     print("--------------------------------------------------------")
+    # Print and interpret the results
+    print("Analysis Results:")
+    print("--------------------------------------------------------")
 
-#     # Task 1: Splitting employees
-#     print("Task 1: Split Employees by Hire Year")
-#     print(f"Number of employees hired total: {len(employee_data)}")
-#     print(f"Number of employees after layoffs: {len(employees_before_1964)}")
-#     print("--------------------------------------------------------")
+    # Task 1: Splitting employees
+    print("Task 1: Split Employees by Hire Year")
+    print(f"Number of employees hired total: {len(employee_data)}")
+    print(f"Number of employees after layoffs: {len(employees_before_1964)}")
+    print("--------------------------------------------------------")
 
-#     # Task 2: Comparing race or gender of all employees before and after layoffs
-#     print("Task 2: Comparing Race and Gender Before and After Layoffs")
-#     print("Category: Before Layoffs ---> After Layoffs")
-#     print("Race:")
-#     for category, count_before in race_gender_counts_total['race'].items():
-#         count_after = race_gender_counts_after_layoffs['race'].get(category, 0)
-#         print(f"\t{category}: {count_before} ---> {count_after}")
+    # Task 2: Comparing race or gender of all employees before and after layoffs
+    print("Task 2: Comparing Race and Gender Before and After Layoffs")
+    print("Category: Before Layoffs ---> After Layoffs")
+    print("Race:")
+    for category, count_before in race_gender_counts_total['race'].items():
+        count_after = race_gender_counts_after_layoffs['race'].get(category, 0)
+        print(f"\t{category}: {count_before} ---> {count_after}")
 
-#     print("Gender:")
-#     for category, count_before in race_gender_counts_total['gender'].items():
-#         count_after = race_gender_counts_after_layoffs['gender'].get(category, 0)
-#         print(f"\t{category}: {count_before} ---> {count_after}")
+    print("Gender:")
+    for category, count_before in race_gender_counts_total['gender'].items():
+        count_after = race_gender_counts_after_layoffs['gender'].get(category, 0)
+        print(f"\t{category}: {count_before} ---> {count_after}")
 
-#     print("--------------------------------------------------------")
+    print("--------------------------------------------------------")
 
-#     # Task 3: Comparing race and gender combinations before and after layoffs
-#     print("Task 3: Comparing Gendered Race Combinations Before and After Layoffs")
-#     print("Category: Before Layoffs ---> After Layoffs")
-#     print("Gendered races:")
-#     for category, count_before in gendered_race_counts_total.items():
-#         count_after = gendered_race_counts_after_layoffs.get(category, 0)
-#         print(f"\t{category}: {count_before} ---> {count_after}")
+    # Task 3: Comparing race and gender combinations before and after layoffs
+    print("Task 3: Comparing Gendered Race Combinations Before and After Layoffs")
+    print("Category: Before Layoffs ---> After Layoffs")
+    print("Gendered races:")
+    for category, count_before in gendered_race_counts_total.items():
+        count_after = gendered_race_counts_after_layoffs.get(category, 0)
+        print(f"\t{category}: {count_before} ---> {count_after}")
 
-#     print("--------------------------------------------------------")
+    print("--------------------------------------------------------")
 
-#     csv_writer(gendered_race_counts_total, "GM_employee_data_before_layoffs.csv")
-#     csv_writer(gendered_race_counts_after_layoffs, "GM_employee_data_after_layoffs.csv")
+    csv_writer(gendered_race_counts_total, "GM_employee_data_before_layoffs.csv")
+    csv_writer(gendered_race_counts_after_layoffs, "GM_employee_data_after_layoffs.csv")
 
 
 
