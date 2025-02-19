@@ -46,8 +46,24 @@ def count_race_or_gender(employees):
     """
     Count the number of employees belonging to each race and gender category.
     """
-    pass
+    count = {}
+    raceCount = {}
+    genderCount = {}
 
+    for i in employees.values():
+        race = i["race"]
+        gender = i["gender"]
+        if race in raceCount:
+            raceCount[race] += 1
+        else:
+            raceCount[race] = 1
+        if gender in genderCount:
+            genderCount[gender] += 1
+        else:
+            genderCount[gender] = 1
+
+        count = {"race": raceCount, "gender": genderCount}
+        return count
 
 def count_race_and_gender(employees):
     """
@@ -112,7 +128,9 @@ class TestEmployeeDataAnalysis(unittest.TestCase):
 
     def test_count_race_or_gender(self):
         # Your test code for count_race_or_gender goes here
-        pass
+        tested = count_race_or_gender(self.testData)
+        self.assertCountEqual(tested["race"], {"White": 3, "Black": 2, "Other": 1})
+        self.assertCountEqual(tested["gender"], {"Male": 5, "Female": 1})
 
     def test_count_race_and_gender(self):
         # Your test code for count_race_and_gender goes here
