@@ -39,6 +39,7 @@ def split_by_hire_year(employees, split_year):
         else:
             after[i] = j
     return (before, after)
+
     
 
 def count_race_or_gender(employees):
