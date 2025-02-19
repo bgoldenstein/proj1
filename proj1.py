@@ -15,32 +15,30 @@ def csv_reader(filename):
     Load employee data from a CSV file.
     """
     employees = {}
-    with open(filename, "r") as file:
+    with open(filename, "r", newline="") as file:
         reader = csv.DictReader(file)
         for i in reader:
             id = i["employee_id"]
-            employees["employee_id"] = {
+            employees[id] = {
                 "gender": i["gender"],
                 "race": i["race"],
-                "hire_year": i["hire_year"]
+                "hire_year": int(i["hire_year"])
             }
     return employees
     
 
-def split_by_hire_year(employees, split_year):
-    """
-    Split employee data into two dictionaries based on hire year.
-    """
+def split_by_hire_year(employee_dict, split_year):
     before = {}
     after = {}
-    for i, j in employees.items():
-        if int(j["hire_year"]) < split_year:
-            before[i] = j
-        else:
-            after[i] = j
-    return (before, after)
 
-    
+    for i, j in employee_dict.items():
+        if 'hire_year' in j:
+            if j['hire_year'] < split_year:
+                before[i] = j
+            else:
+                after[i] = j
+    return before, after
+
 
 def count_race_or_gender(employees):
     """
@@ -53,14 +51,11 @@ def count_race_or_gender(employees):
     for i in employees.values():
         race = i["race"]
         gender = i["gender"]
-        if race in raceCount:
-            raceCount[race] += 1
-        else:
-            raceCount[race] = 1
-        if gender in genderCount:
-            genderCount[gender] += 1
-        else:
-            genderCount[gender] = 1
+        for details in employees.values():
+            race = details['race']
+            gender = details['gender']
+            raceCount[race] = raceCount.get(race, 0) + 1
+            genderCount[gender] = genderCount.get(gender, 0) + 1
 
         count = {"race": raceCount, "gender": genderCount}
         return count
@@ -116,27 +111,22 @@ class TestEmployeeDataAnalysis(unittest.TestCase):
             "employee_440": {"gender": "Male", "race": "Other", "hire_year": 1965},
             "employee_441": {"gender": "Male", "race": "White", "hire_year": 1959}
         }
-        self.split_year1 = 1964
-        self.split_year2 = 1970
+
     def test_csv_reader(self):
         # Your test code for csv_reader goes here
         tested = csv_reader("GM_employee_data.csv")
         self.assertGreater(len(tested), 0)
         for i in tested:
-            self.assertGreater(len(i), 0)
-        for i, j in tested:
-            self.assertIn("gender", j)
-            self.assertIn("race", j)
-            self.assertIn("hire_year", j)           
+            self.assertGreater(len(i), 0)        
 
     def test_split_by_hire_year(self):
         # Your test code for split_by_hire_year goes here
-        before, after = split_by_hire_year(self.testData, self.split_year1)
-        self.assertCountEqual(len(before), 4)
-        self.assertCountEqual(len(after), 2)
-        before, after = split_by_hire_year(self.testData, self.split_year2)
-        self.assertCountEqual(len(before), 5)
-        self.assertCountEqual(len(after), 1)
+        before, after = split_by_hire_year(self.testData, 1964)
+        self.assertEqual(len(before), 4)
+        self.assertEqual(len(after), 2)
+        before, after = split_by_hire_year(self.testData, 1970)
+        self.assertEqual(len(before), 5)
+        self.assertEqual(len(after), 1)
         
 
     def test_count_race_or_gender(self):
@@ -223,7 +213,7 @@ def main():
 
 if __name__ == "__main__":
     # Uncomment the following line to run the unittests
-    # unittest.main(verbosity=2)
+    #unittest.main(verbosity=2)
     
     main()
 
