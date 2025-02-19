@@ -1,0 +1,1001 @@
+employee_id,gender,race,hire_year,role,salary
+employee_1,Female,White,1964,Upholstery Worker,7369
+employee_2,Male,Black,1972,Manager,24339
+employee_3,Male,White,1970,Manager,22381
+employee_4,Male,White,1954,Assembly Line Worker,9778
+employee_5,Male,White,1958,Supervisor,17409
+employee_6,Female,White,1968,Upholstery Worker,9387
+employee_7,Male,White,1957,Supervisor,15936
+employee_8,Male,White,1950,Assembly Line Worker,13020
+employee_9,Male,Black,1958,Supervisor,15804
+employee_10,Male,White,1960,Manager,30196
+employee_11,Male,White,1960,Supervisor,18750
+employee_12,Male,Other,1965,Assembly Line Worker,9592
+employee_13,Male,White,1970,Manager,27608
+employee_14,Male,White,1960,Manager,33958
+employee_15,Male,White,1951,Manager,30676
+employee_16,Male,Black,1967,Manager,28180
+employee_17,Male,White,1963,Manager,27316
+employee_18,Male,Black,1963,Assembly Line Worker,11609
+employee_19,Male,Other,1961,Manager,26767
+employee_20,Male,White,1950,Manager,25278
+employee_21,Male,White,1955,Supervisor,19371
+employee_22,Female,White,1971,Assembly Line Worker,8843
+employee_23,Female,White,1964,Upholstery Worker,9674
+employee_24,Male,White,1962,Assembly Line Worker,13070
+employee_25,Female,White,1953,Upholstery Worker,9486
+employee_26,Male,Black,1955,Assembly Line Worker,10128
+employee_27,Male,White,1969,Manager,25784
+employee_28,Male,White,1968,Supervisor,15304
+employee_29,Male,White,1954,Assembly Line Worker,12440
+employee_30,Male,White,1965,Supervisor,15033
+employee_31,Male,White,1967,Supervisor,14390
+employee_32,Male,White,1951,Manager,32249
+employee_33,Male,White,1952,Manager,35043
+employee_34,Male,White,1971,Manager,26175
+employee_35,Male,Black,1951,Assembly Line Worker,10040
+employee_36,Male,White,1958,Supervisor,15792
+employee_37,Male,White,1969,Supervisor,17105
+employee_38,Male,White,1970,Manager,28147
+employee_39,Male,White,1951,Manager,33966
+employee_40,Male,White,1956,Manager,32473
+employee_41,Male,Black,1956,Supervisor,20752
+employee_42,Male,Black,1961,Supervisor,14828
+employee_43,Male,White,1964,Supervisor,16650
+employee_44,Male,White,1967,Assembly Line Worker,10283
+employee_45,Female,Black,1970,Upholstery Worker,7396
+employee_46,Female,Black,1973,Upholstery Worker,7213
+employee_47,Male,Black,1955,Supervisor,20351
+employee_48,Male,White,1970,Manager,26009
+employee_49,Male,White,1971,Supervisor,17607
+employee_50,Male,Black,1973,Supervisor,15907
+employee_51,Male,White,1961,Assembly Line Worker,12351
+employee_52,Male,White,1954,Manager,26089
+employee_53,Male,White,1965,Manager,28240
+employee_54,Male,Black,1951,Assembly Line Worker,12836
+employee_55,Male,Other,1962,Manager,24853
+employee_56,Male,Black,1958,Assembly Line Worker,12134
+employee_57,Male,White,1971,Manager,24915
+employee_58,Male,Other,1954,Supervisor,16718
+employee_59,Male,White,1970,Supervisor,15117
+employee_60,Female,White,1957,Upholstery Worker,7138
+employee_61,Female,White,1964,Upholstery Worker,6982
+employee_62,Male,Black,1971,Manager,27032
+employee_63,Male,Black,1971,Assembly Line Worker,10573
+employee_64,Male,Black,1963,Manager,31593
+employee_65,Male,White,1972,Manager,29165
+employee_66,Female,White,1967,Upholstery Worker,8696
+employee_67,Male,White,1953,Supervisor,16158
+employee_68,Female,White,1959,Upholstery Worker,8417
+employee_69,Male,White,1953,Supervisor,18599
+employee_70,Male,White,1962,Assembly Line Worker,12400
+employee_71,Male,Black,1950,Assembly Line Worker,11545
+employee_72,Female,Black,1971,Upholstery Worker,6698
+employee_73,Male,White,1963,Supervisor,16323
+employee_74,Female,White,1951,Upholstery Worker,8434
+employee_75,Female,White,1955,Upholstery Worker,9943
+employee_76,Male,White,1972,Supervisor,18181
+employee_77,Male,White,1966,Manager,27121
+employee_78,Male,White,1967,Manager,30355
+employee_79,Male,White,1963,Manager,33008
+employee_80,Male,Black,1968,Supervisor,16580
+employee_81,Male,Black,1973,Manager,28766
+employee_82,Male,White,1964,Manager,25362
+employee_83,Male,Black,1950,Assembly Line Worker,14574
+employee_84,Male,White,1968,Manager,21627
+employee_85,Female,Black,1971,Upholstery Worker,8138
+employee_86,Male,Other,1951,Assembly Line Worker,10203
+employee_87,Male,White,1973,Manager,26008
+employee_88,Male,White,1952,Supervisor,20105
+employee_89,Male,Black,1953,Assembly Line Worker,10053
+employee_90,Male,White,1958,Assembly Line Worker,13594
+employee_91,Male,White,1954,Supervisor,19046
+employee_92,Male,White,1955,Assembly Line Worker,12828
+employee_93,Male,White,1951,Supervisor,19311
+employee_94,Male,White,1959,Manager,33531
+employee_95,Male,White,1971,Manager,27190
+employee_96,Male,White,1973,Manager,23806
+employee_97,Male,White,1973,Supervisor,15341
+employee_98,Male,White,1972,Assembly Line Worker,10212
+employee_99,Male,White,1961,Supervisor,15356
+employee_100,Male,White,1960,Assembly Line Worker,12507
+employee_101,Female,Black,1972,Upholstery Worker,6929
+employee_102,Male,White,1954,Manager,33102
+employee_103,Male,Black,1962,Supervisor,15620
+employee_104,Male,White,1968,Assembly Line Worker,9263
+employee_105,Female,White,1956,Upholstery Worker,7231
+employee_106,Male,White,1954,Supervisor,20448
+employee_107,Male,White,1972,Assembly Line Worker,10282
+employee_108,Male,White,1971,Manager,21749
+employee_109,Male,Black,1970,Supervisor,16154
+employee_110,Male,White,1960,Manager,25294
+employee_111,Male,White,1969,Manager,22767
+employee_112,Male,White,1972,Manager,27499
+employee_113,Male,White,1954,Manager,24256
+employee_114,Male,White,1972,Assembly Line Worker,8281
+employee_115,Male,White,1957,Assembly Line Worker,9426
+employee_116,Male,White,1965,Assembly Line Worker,12632
+employee_117,Male,White,1958,Supervisor,16426
+employee_118,Male,White,1958,Manager,26501
+employee_119,Male,White,1963,Assembly Line Worker,9873
+employee_120,Male,Black,1954,Assembly Line Worker,13707
+employee_121,Male,White,1958,Manager,34238
+employee_122,Female,Black,1972,Janitor,5279
+employee_123,Female,White,1966,Upholstery Worker,8037
+employee_124,Male,White,1971,Manager,23663
+employee_125,Male,White,1962,Manager,32126
+employee_126,Male,Black,1965,Manager,22968
+employee_127,Male,White,1953,Assembly Line Worker,12614
+employee_128,Male,White,1965,Manager,23429
+employee_129,Male,Black,1973,Manager,26876
+employee_130,Male,Other,1970,Manager,21630
+employee_131,Male,White,1952,Manager,35882
+employee_132,Female,White,1952,Upholstery Worker,10474
+employee_133,Male,Black,1967,Assembly Line Worker,11927
+employee_134,Male,White,1961,Manager,33597
+employee_135,Male,Black,1956,Assembly Line Worker,12859
+employee_136,Male,White,1965,Manager,31853
+employee_137,Male,Black,1971,Supervisor,13661
+employee_138,Female,White,1960,Upholstery Worker,7876
+employee_139,Male,White,1952,Supervisor,18454
+employee_140,Male,White,1972,Supervisor,14000
+employee_141,Male,Other,1966,Manager,28225
+employee_142,Male,White,1955,Supervisor,17686
+employee_143,Male,White,1952,Assembly Line Worker,14152
+employee_144,Male,White,1955,Manager,31188
+employee_145,Male,White,1961,Manager,31011
+employee_146,Male,White,1962,Assembly Line Worker,12017
+employee_147,Male,White,1966,Manager,21975
+employee_148,Male,White,1959,Supervisor,19453
+employee_149,Male,White,1962,Supervisor,18908
+employee_150,Male,Black,1961,Manager,32125
+employee_151,Male,White,1953,Manager,26092
+employee_152,Male,White,1959,Assembly Line Worker,11066
+employee_153,Female,White,1958,Upholstery Worker,8143
+employee_154,Female,White,1950,Upholstery Worker,7783
+employee_155,Male,White,1972,Manager,29130
+employee_156,Male,White,1954,Assembly Line Worker,9557
+employee_157,Male,Black,1968,Manager,29972
+employee_158,Male,Black,1950,Manager,30871
+employee_159,Male,White,1953,Supervisor,19492
+employee_160,Male,Other,1952,Manager,31705
+employee_161,Male,Black,1950,Assembly Line Worker,14453
+employee_162,Male,White,1961,Manager,24648
+employee_163,Female,Black,1972,Upholstery Worker,6304
+employee_164,Female,White,1964,Upholstery Worker,7674
+employee_165,Male,Black,1960,Manager,33628
+employee_166,Male,White,1964,Manager,28895
+employee_167,Male,Black,1973,Manager,23864
+employee_168,Male,White,1957,Manager,28471
+employee_169,Female,Black,1971,Assembly Line Worker,10074
+employee_170,Male,Black,1955,Assembly Line Worker,11823
+employee_171,Male,Black,1956,Supervisor,15399
+employee_172,Male,White,1958,Manager,34050
+employee_173,Female,White,1954,Upholstery Worker,10378
+employee_174,Male,Black,1963,Assembly Line Worker,11726
+employee_175,Male,White,1968,Manager,27291
+employee_176,Male,White,1961,Supervisor,15324
+employee_177,Male,White,1952,Supervisor,21015
+employee_178,Male,White,1971,Supervisor,14769
+employee_179,Male,Black,1953,Assembly Line Worker,9794
+employee_180,Female,White,1953,Upholstery Worker,8410
+employee_181,Male,White,1969,Supervisor,17979
+employee_182,Male,White,1956,Assembly Line Worker,9986
+employee_183,Female,White,1971,Assembly Line Worker,10822
+employee_184,Female,White,1970,Upholstery Worker,7135
+employee_185,Female,Black,1970,Assembly Line Worker,10840
+employee_186,Female,White,1968,Upholstery Worker,9138
+employee_187,Female,White,1954,Upholstery Worker,9203
+employee_188,Male,White,1958,Assembly Line Worker,13012
+employee_189,Female,White,1955,Upholstery Worker,8602
+employee_190,Male,Black,1959,Manager,24003
+employee_191,Male,Black,1969,Supervisor,16725
+employee_192,Male,White,1967,Supervisor,17049
+employee_193,Male,White,1966,Assembly Line Worker,12467
+employee_194,Male,White,1954,Supervisor,19337
+employee_195,Male,Black,1963,Assembly Line Worker,13101
+employee_196,Male,White,1971,Supervisor,13757
+employee_197,Female,White,1972,Assembly Line Worker,10454
+employee_198,Male,White,1970,Supervisor,17363
+employee_199,Female,White,1961,Upholstery Worker,10099
+employee_200,Male,White,1965,Assembly Line Worker,9729
+employee_201,Male,White,1973,Manager,23570
+employee_202,Male,White,1958,Supervisor,18754
+employee_203,Male,Black,1956,Supervisor,21117
+employee_204,Male,Black,1951,Manager,31390
+employee_205,Male,White,1954,Supervisor,18388
+employee_206,Female,Black,1970,Janitor,6060
+employee_207,Male,Black,1965,Manager,31099
+employee_208,Male,White,1971,Supervisor,18152
+employee_209,Male,White,1968,Manager,30558
+employee_210,Male,White,1965,Manager,30412
+employee_211,Male,White,1953,Supervisor,19190
+employee_212,Male,White,1965,Assembly Line Worker,9565
+employee_213,Male,White,1960,Supervisor,18507
+employee_214,Male,Black,1967,Supervisor,15115
+employee_215,Male,White,1955,Supervisor,18824
+employee_216,Male,White,1957,Manager,32601
+employee_217,Male,Black,1956,Manager,23825
+employee_218,Male,White,1956,Supervisor,15620
+employee_219,Male,White,1972,Supervisor,16765
+employee_220,Male,White,1962,Assembly Line Worker,9050
+employee_221,Male,White,1969,Supervisor,14469
+employee_222,Male,White,1959,Manager,31552
+employee_223,Male,White,1951,Assembly Line Worker,10917
+employee_224,Male,White,1968,Assembly Line Worker,11621
+employee_225,Male,White,1961,Manager,32792
+employee_226,Male,White,1959,Assembly Line Worker,9216
+employee_227,Female,Other,1971,Assembly Line Worker,8981
+employee_228,Male,Black,1957,Manager,27776
+employee_229,Male,White,1960,Manager,24678
+employee_230,Male,Black,1959,Manager,26457
+employee_231,Male,White,1951,Manager,31165
+employee_232,Female,Black,1972,Assembly Line Worker,8521
+employee_233,Male,Black,1962,Manager,31231
+employee_234,Male,White,1959,Manager,32948
+employee_235,Male,Black,1956,Supervisor,20916
+employee_236,Female,White,1959,Upholstery Worker,8364
+employee_237,Female,White,1954,Upholstery Worker,10698
+employee_238,Male,White,1958,Supervisor,18762
+employee_239,Male,Black,1969,Assembly Line Worker,9402
+employee_240,Female,White,1957,Upholstery Worker,8379
+employee_241,Female,White,1965,Upholstery Worker,6791
+employee_242,Male,White,1965,Assembly Line Worker,12456
+employee_243,Male,White,1967,Manager,29648
+employee_244,Male,Black,1959,Supervisor,20143
+employee_245,Male,White,1968,Supervisor,17203
+employee_246,Male,White,1958,Assembly Line Worker,11097
+employee_247,Male,White,1966,Manager,27263
+employee_248,Male,Black,1963,Manager,27764
+employee_249,Male,White,1966,Supervisor,18099
+employee_250,Male,Black,1953,Supervisor,16455
+employee_251,Male,White,1970,Supervisor,14668
+employee_252,Male,Black,1971,Supervisor,14783
+employee_253,Female,White,1955,Upholstery Worker,9030
+employee_254,Male,Black,1972,Manager,29063
+employee_255,Female,Black,1971,Janitor,6365
+employee_256,Male,Other,1956,Manager,33876
+employee_257,Male,White,1972,Assembly Line Worker,8495
+employee_258,Male,White,1958,Supervisor,16326
+employee_259,Male,White,1963,Manager,29735
+employee_260,Male,Black,1967,Supervisor,18607
+employee_261,Male,Other,1970,Supervisor,18494
+employee_262,Male,White,1973,Manager,25975
+employee_263,Female,White,1966,Upholstery Worker,8502
+employee_264,Female,White,1951,Upholstery Worker,9681
+employee_265,Male,Black,1959,Manager,31118
+employee_266,Male,Other,1954,Manager,31365
+employee_267,Male,White,1953,Supervisor,16828
+employee_268,Male,White,1967,Manager,21869
+employee_269,Male,Black,1973,Manager,20292
+employee_270,Male,White,1970,Supervisor,14333
+employee_271,Male,Black,1971,Manager,28663
+employee_272,Male,White,1969,Assembly Line Worker,11415
+employee_273,Male,White,1960,Manager,30294
+employee_274,Male,White,1964,Assembly Line Worker,11336
+employee_275,Female,White,1966,Upholstery Worker,9007
+employee_276,Female,Black,1973,Upholstery Worker,6902
+employee_277,Female,Black,1972,Upholstery Worker,7483
+employee_278,Male,White,1956,Manager,30864
+employee_279,Female,White,1972,Upholstery Worker,7625
+employee_280,Male,Other,1965,Manager,24027
+employee_281,Female,White,1956,Upholstery Worker,9070
+employee_282,Male,White,1969,Supervisor,17342
+employee_283,Male,White,1966,Supervisor,14410
+employee_284,Male,White,1968,Manager,23545
+employee_285,Male,White,1956,Assembly Line Worker,12415
+employee_286,Male,White,1954,Manager,26214
+employee_287,Male,Black,1954,Assembly Line Worker,10152
+employee_288,Male,White,1955,Manager,34766
+employee_289,Male,White,1965,Assembly Line Worker,11176
+employee_290,Male,White,1968,Assembly Line Worker,10199
+employee_291,Female,Black,1971,Upholstery Worker,6157
+employee_292,Male,White,1957,Assembly Line Worker,12674
+employee_293,Female,White,1958,Upholstery Worker,10142
+employee_294,Male,Black,1966,Assembly Line Worker,10579
+employee_295,Male,Black,1960,Supervisor,18170
+employee_296,Male,White,1960,Manager,22765
+employee_297,Male,White,1952,Supervisor,16985
+employee_298,Male,White,1973,Manager,29258
+employee_299,Female,Black,1973,Upholstery Worker,6574
+employee_300,Male,White,1968,Supervisor,17464
+employee_301,Male,Other,1956,Supervisor,19560
+employee_302,Male,Other,1966,Manager,25458
+employee_303,Male,White,1953,Supervisor,21223
+employee_304,Male,White,1973,Assembly Line Worker,12080
+employee_305,Male,White,1973,Manager,27924
+employee_306,Male,White,1969,Manager,23243
+employee_307,Female,White,1970,Upholstery Worker,8512
+employee_308,Female,White,1968,Upholstery Worker,8226
+employee_309,Female,White,1971,Upholstery Worker,8622
+employee_310,Male,White,1966,Supervisor,18432
+employee_311,Female,Black,1970,Upholstery Worker,8669
+employee_312,Male,White,1968,Assembly Line Worker,10534
+employee_313,Male,White,1950,Assembly Line Worker,12476
+employee_314,Female,Black,1973,Janitor,6345
+employee_315,Male,Other,1953,Assembly Line Worker,11266
+employee_316,Male,Black,1966,Manager,30989
+employee_317,Male,White,1951,Assembly Line Worker,12437
+employee_318,Female,White,1952,Upholstery Worker,7340
+employee_319,Male,White,1973,Manager,25031
+employee_320,Male,White,1973,Supervisor,17243
+employee_321,Male,Black,1951,Manager,34410
+employee_322,Male,White,1950,Assembly Line Worker,10538
+employee_323,Male,White,1970,Supervisor,16115
+employee_324,Male,White,1966,Manager,24314
+employee_325,Male,White,1959,Supervisor,17346
+employee_326,Female,White,1955,Upholstery Worker,8487
+employee_327,Male,White,1972,Assembly Line Worker,9357
+employee_328,Male,White,1957,Assembly Line Worker,13854
+employee_329,Male,White,1962,Supervisor,19709
+employee_330,Male,Other,1960,Assembly Line Worker,10299
+employee_331,Male,Black,1957,Supervisor,17556
+employee_332,Male,White,1956,Supervisor,18270
+employee_333,Male,Black,1951,Supervisor,21597
+employee_334,Female,White,1955,Upholstery Worker,8208
+employee_335,Male,White,1964,Manager,23241
+employee_336,Male,White,1965,Assembly Line Worker,10928
+employee_337,Male,Black,1966,Manager,27800
+employee_338,Male,White,1967,Manager,22345
+employee_339,Male,White,1963,Assembly Line Worker,9969
+employee_340,Male,Black,1971,Assembly Line Worker,11682
+employee_341,Male,White,1958,Supervisor,20094
+employee_342,Male,White,1954,Manager,34930
+employee_343,Male,White,1973,Supervisor,16564
+employee_344,Male,White,1951,Supervisor,17059
+employee_345,Male,Black,1958,Supervisor,19225
+employee_346,Male,White,1951,Assembly Line Worker,13269
+employee_347,Male,Black,1955,Supervisor,18490
+employee_348,Male,Black,1964,Supervisor,18223
+employee_349,Male,White,1972,Manager,22468
+employee_350,Female,White,1963,Upholstery Worker,8759
+employee_351,Male,White,1952,Assembly Line Worker,10350
+employee_352,Male,White,1950,Supervisor,17461
+employee_353,Male,White,1972,Manager,22307
+employee_354,Female,White,1963,Upholstery Worker,8165
+employee_355,Female,Black,1970,Assembly Line Worker,11916
+employee_356,Male,White,1964,Assembly Line Worker,10595
+employee_357,Male,White,1957,Assembly Line Worker,10120
+employee_358,Male,White,1971,Supervisor,17762
+employee_359,Male,Black,1973,Assembly Line Worker,10440
+employee_360,Male,White,1952,Assembly Line Worker,13001
+employee_361,Male,White,1958,Assembly Line Worker,9287
+employee_362,Female,Other,1972,Assembly Line Worker,9454
+employee_363,Male,Black,1969,Assembly Line Worker,8627
+employee_364,Male,White,1960,Assembly Line Worker,13196
+employee_365,Male,White,1958,Assembly Line Worker,10314
+employee_366,Male,White,1956,Supervisor,17107
+employee_367,Female,White,1966,Upholstery Worker,6961
+employee_368,Female,White,1966,Upholstery Worker,6991
+employee_369,Male,White,1966,Assembly Line Worker,11016
+employee_370,Male,White,1972,Supervisor,16002
+employee_371,Male,White,1962,Supervisor,18863
+employee_372,Male,Other,1962,Supervisor,16053
+employee_373,Male,Other,1954,Assembly Line Worker,13093
+employee_374,Male,White,1957,Manager,24893
+employee_375,Male,White,1968,Supervisor,13932
+employee_376,Male,White,1962,Supervisor,19875
+employee_377,Male,Black,1950,Manager,27496
+employee_378,Male,Black,1961,Assembly Line Worker,10775
+employee_379,Male,Black,1963,Assembly Line Worker,9048
+employee_380,Male,White,1962,Supervisor,15110
+employee_381,Male,White,1961,Supervisor,16723
+employee_382,Male,Black,1955,Assembly Line Worker,13004
+employee_383,Male,White,1964,Manager,26242
+employee_384,Female,Black,1973,Janitor,6017
+employee_385,Male,Black,1953,Manager,35696
+employee_386,Male,White,1965,Manager,23904
+employee_387,Male,White,1951,Supervisor,18551
+employee_388,Female,White,1967,Upholstery Worker,7687
+employee_389,Female,White,1963,Upholstery Worker,6650
+employee_390,Male,Black,1954,Supervisor,17328
+employee_391,Male,White,1970,Assembly Line Worker,10495
+employee_392,Male,Black,1954,Manager,24408
+employee_393,Male,White,1967,Supervisor,15099
+employee_394,Male,White,1973,Assembly Line Worker,9442
+employee_395,Male,Black,1962,Manager,27993
+employee_396,Male,White,1964,Supervisor,17949
+employee_397,Male,White,1956,Manager,27267
+employee_398,Male,White,1951,Assembly Line Worker,10555
+employee_399,Male,White,1967,Assembly Line Worker,10948
+employee_400,Male,Black,1962,Manager,27989
+employee_401,Female,Black,1973,Janitor,6026
+employee_402,Female,White,1951,Upholstery Worker,10950
+employee_403,Male,Black,1972,Supervisor,15396
+employee_404,Female,White,1962,Upholstery Worker,6778
+employee_405,Male,Black,1950,Manager,30289
+employee_406,Female,Black,1973,Assembly Line Worker,10635
+employee_407,Male,White,1965,Supervisor,15797
+employee_408,Male,Other,1962,Manager,33497
+employee_409,Male,White,1973,Supervisor,16379
+employee_410,Male,White,1958,Supervisor,20258
+employee_411,Male,Black,1969,Manager,28478
+employee_412,Male,White,1952,Manager,25610
+employee_413,Female,Black,1972,Janitor,5717
+employee_414,Female,White,1951,Upholstery Worker,8504
+employee_415,Female,White,1972,Assembly Line Worker,11711
+employee_416,Male,Black,1952,Supervisor,20392
+employee_417,Female,White,1958,Upholstery Worker,6944
+employee_418,Female,Black,1970,Upholstery Worker,8628
+employee_419,Female,White,1971,Assembly Line Worker,11357
+employee_420,Male,White,1965,Supervisor,16108
+employee_421,Female,White,1951,Upholstery Worker,8202
+employee_422,Male,White,1956,Manager,31315
+employee_423,Male,White,1951,Assembly Line Worker,11803
+employee_424,Male,Other,1951,Assembly Line Worker,14450
+employee_425,Male,White,1969,Supervisor,18303
+employee_426,Male,Black,1966,Supervisor,14515
+employee_427,Female,Black,1971,Assembly Line Worker,9579
+employee_428,Male,White,1955,Manager,30399
+employee_429,Female,White,1965,Upholstery Worker,8283
+employee_430,Male,White,1961,Manager,33810
+employee_431,Male,White,1965,Assembly Line Worker,9304
+employee_432,Male,Black,1950,Assembly Line Worker,9978
+employee_433,Female,White,1963,Upholstery Worker,8172
+employee_434,Male,Black,1952,Assembly Line Worker,11108
+employee_435,Female,White,1959,Upholstery Worker,9747
+employee_436,Male,White,1962,Manager,23093
+employee_437,Male,Black,1950,Supervisor,20644
+employee_438,Male,White,1957,Supervisor,15992
+employee_439,Male,White,1970,Manager,27667
+employee_440,Male,Black,1966,Assembly Line Worker,10552
+employee_441,Male,White,1952,Manager,34043
+employee_442,Male,Black,1958,Supervisor,17856
+employee_443,Male,White,1954,Assembly Line Worker,10179
+employee_444,Female,White,1950,Upholstery Worker,8377
+employee_445,Male,Other,1964,Assembly Line Worker,10670
+employee_446,Male,White,1971,Supervisor,14658
+employee_447,Male,White,1953,Assembly Line Worker,12649
+employee_448,Male,White,1970,Supervisor,17087
+employee_449,Male,White,1950,Supervisor,17390
+employee_450,Female,White,1960,Upholstery Worker,6810
+employee_451,Male,White,1956,Manager,28148
+employee_452,Male,Black,1954,Supervisor,20055
+employee_453,Male,Other,1966,Assembly Line Worker,11546
+employee_454,Male,White,1964,Assembly Line Worker,10429
+employee_455,Male,White,1969,Assembly Line Worker,10051
+employee_456,Female,White,1957,Upholstery Worker,7948
+employee_457,Male,Black,1958,Supervisor,17954
+employee_458,Male,White,1960,Supervisor,18125
+employee_459,Male,Black,1969,Supervisor,14456
+employee_460,Female,White,1963,Upholstery Worker,8533
+employee_461,Male,Black,1972,Manager,22065
+employee_462,Male,White,1952,Manager,35700
+employee_463,Male,White,1957,Supervisor,19508
+employee_464,Male,White,1964,Manager,30856
+employee_465,Male,White,1969,Assembly Line Worker,11804
+employee_466,Male,White,1951,Supervisor,16821
+employee_467,Female,White,1967,Upholstery Worker,6421
+employee_468,Male,White,1967,Assembly Line Worker,9936
+employee_469,Male,White,1967,Supervisor,19024
+employee_470,Male,Black,1954,Manager,29981
+employee_471,Female,White,1957,Upholstery Worker,8452
+employee_472,Male,Other,1962,Assembly Line Worker,9997
+employee_473,Male,White,1971,Manager,25157
+employee_474,Female,Other,1970,Upholstery Worker,8559
+employee_475,Male,White,1962,Assembly Line Worker,9920
+employee_476,Male,White,1963,Assembly Line Worker,12984
+employee_477,Female,Other,1971,Assembly Line Worker,11336
+employee_478,Male,White,1966,Assembly Line Worker,12649
+employee_479,Male,White,1962,Supervisor,15175
+employee_480,Male,White,1956,Assembly Line Worker,11073
+employee_481,Male,Black,1960,Supervisor,20256
+employee_482,Male,White,1967,Manager,28573
+employee_483,Male,White,1956,Manager,32959
+employee_484,Male,Black,1966,Assembly Line Worker,12462
+employee_485,Male,Black,1973,Manager,25114
+employee_486,Female,White,1964,Upholstery Worker,7187
+employee_487,Male,Black,1957,Supervisor,20383
+employee_488,Male,White,1960,Assembly Line Worker,12914
+employee_489,Male,Black,1963,Supervisor,17135
+employee_490,Male,White,1957,Assembly Line Worker,12450
+employee_491,Male,White,1955,Manager,30558
+employee_492,Male,White,1971,Manager,20993
+employee_493,Male,Black,1955,Assembly Line Worker,9907
+employee_494,Male,White,1954,Assembly Line Worker,14002
+employee_495,Male,White,1970,Assembly Line Worker,10685
+employee_496,Female,White,1964,Upholstery Worker,8371
+employee_497,Male,White,1963,Supervisor,16880
+employee_498,Male,White,1973,Supervisor,17650
+employee_499,Male,White,1953,Supervisor,20434
+employee_500,Female,Other,1971,Upholstery Worker,7580
+employee_501,Male,Other,1965,Supervisor,19080
+employee_502,Female,White,1955,Upholstery Worker,8952
+employee_503,Male,White,1960,Assembly Line Worker,12228
+employee_504,Female,White,1956,Upholstery Worker,9998
+employee_505,Male,Black,1951,Manager,31842
+employee_506,Male,Black,1964,Assembly Line Worker,12723
+employee_507,Male,White,1960,Supervisor,17709
+employee_508,Male,Other,1957,Supervisor,15543
+employee_509,Male,Black,1965,Assembly Line Worker,12280
+employee_510,Male,White,1957,Manager,23464
+employee_511,Male,White,1970,Manager,26152
+employee_512,Male,White,1960,Supervisor,15537
+employee_513,Male,White,1952,Manager,33364
+employee_514,Female,White,1959,Upholstery Worker,8210
+employee_515,Female,Black,1972,Assembly Line Worker,11149
+employee_516,Female,White,1953,Upholstery Worker,8385
+employee_517,Male,Black,1966,Assembly Line Worker,12348
+employee_518,Male,Black,1961,Assembly Line Worker,12303
+employee_519,Male,White,1968,Assembly Line Worker,11093
+employee_520,Male,White,1950,Assembly Line Worker,13915
+employee_521,Male,Black,1967,Assembly Line Worker,10055
+employee_522,Male,White,1955,Supervisor,19527
+employee_523,Male,Other,1966,Assembly Line Worker,8856
+employee_524,Male,White,1957,Supervisor,15543
+employee_525,Male,White,1958,Manager,31055
+employee_526,Female,White,1954,Upholstery Worker,9696
+employee_527,Male,White,1964,Supervisor,14495
+employee_528,Male,White,1957,Manager,23426
+employee_529,Male,Black,1950,Assembly Line Worker,11840
+employee_530,Female,White,1960,Upholstery Worker,10163
+employee_531,Male,White,1957,Manager,27325
+employee_532,Male,White,1950,Manager,27610
+employee_533,Female,Black,1973,Upholstery Worker,6869
+employee_534,Female,Black,1973,Assembly Line Worker,10089
+employee_535,Male,White,1966,Assembly Line Worker,12329
+employee_536,Female,Black,1970,Upholstery Worker,7770
+employee_537,Male,White,1954,Supervisor,17190
+employee_538,Female,Black,1972,Assembly Line Worker,10191
+employee_539,Female,White,1956,Upholstery Worker,7813
+employee_540,Male,Black,1960,Assembly Line Worker,9610
+employee_541,Female,White,1954,Upholstery Worker,8160
+employee_542,Male,Black,1964,Manager,24886
+employee_543,Male,White,1963,Manager,27767
+employee_544,Female,Black,1973,Assembly Line Worker,11250
+employee_545,Male,White,1954,Supervisor,17664
+employee_546,Male,White,1955,Supervisor,19823
+employee_547,Male,White,1962,Manager,29131
+employee_548,Male,Black,1971,Manager,22772
+employee_549,Male,White,1961,Assembly Line Worker,11909
+employee_550,Male,White,1970,Assembly Line Worker,10046
+employee_551,Female,White,1958,Upholstery Worker,8586
+employee_552,Male,White,1971,Supervisor,15413
+employee_553,Male,White,1970,Supervisor,15609
+employee_554,Male,White,1952,Manager,27425
+employee_555,Male,Black,1953,Manager,36062
+employee_556,Male,White,1971,Assembly Line Worker,10097
+employee_557,Female,White,1952,Upholstery Worker,9607
+employee_558,Male,Black,1966,Supervisor,18728
+employee_559,Male,White,1956,Manager,30334
+employee_560,Female,White,1967,Upholstery Worker,6784
+employee_561,Male,Black,1970,Assembly Line Worker,11211
+employee_562,Female,White,1972,Upholstery Worker,8175
+employee_563,Male,White,1964,Supervisor,15491
+employee_564,Male,White,1967,Manager,28044
+employee_565,Male,White,1973,Manager,21679
+employee_566,Female,White,1960,Upholstery Worker,7750
+employee_567,Female,White,1967,Upholstery Worker,6787
+employee_568,Male,White,1969,Assembly Line Worker,10120
+employee_569,Male,Black,1964,Manager,26870
+employee_570,Male,White,1961,Supervisor,19542
+employee_571,Male,White,1973,Manager,26222
+employee_572,Male,White,1959,Supervisor,18896
+employee_573,Male,White,1953,Manager,33960
+employee_574,Male,Other,1960,Assembly Line Worker,12694
+employee_575,Male,White,1956,Assembly Line Worker,12277
+employee_576,Male,White,1963,Supervisor,18744
+employee_577,Male,White,1969,Supervisor,18459
+employee_578,Female,Black,1970,Upholstery Worker,6728
+employee_579,Male,White,1954,Manager,32930
+employee_580,Male,Black,1968,Manager,31546
+employee_581,Male,Black,1963,Supervisor,17603
+employee_582,Female,White,1961,Upholstery Worker,8995
+employee_583,Male,White,1971,Supervisor,14195
+employee_584,Female,White,1951,Upholstery Worker,8402
+employee_585,Male,Black,1964,Manager,24523
+employee_586,Female,White,1971,Upholstery Worker,8525
+employee_587,Male,White,1972,Assembly Line Worker,11971
+employee_588,Male,White,1958,Assembly Line Worker,11123
+employee_589,Male,Other,1966,Manager,22828
+employee_590,Female,White,1963,Upholstery Worker,7481
+employee_591,Male,White,1958,Manager,29436
+employee_592,Male,Black,1956,Supervisor,21051
+employee_593,Male,White,1959,Assembly Line Worker,12912
+employee_594,Female,White,1955,Upholstery Worker,8532
+employee_595,Male,Black,1958,Supervisor,19314
+employee_596,Male,White,1953,Supervisor,21491
+employee_597,Male,White,1973,Supervisor,15179
+employee_598,Male,White,1951,Assembly Line Worker,14501
+employee_599,Male,White,1953,Assembly Line Worker,13596
+employee_600,Male,White,1968,Manager,23274
+employee_601,Female,White,1971,Upholstery Worker,7388
+employee_602,Male,Black,1950,Assembly Line Worker,13961
+employee_603,Male,White,1961,Assembly Line Worker,12602
+employee_604,Male,White,1958,Manager,24009
+employee_605,Male,Black,1954,Assembly Line Worker,12334
+employee_606,Male,White,1954,Supervisor,19962
+employee_607,Male,Black,1960,Assembly Line Worker,11722
+employee_608,Male,Black,1951,Assembly Line Worker,14642
+employee_609,Male,White,1957,Manager,27354
+employee_610,Male,White,1959,Supervisor,19100
+employee_611,Male,White,1955,Supervisor,16193
+employee_612,Female,White,1958,Upholstery Worker,8121
+employee_613,Male,White,1970,Assembly Line Worker,8961
+employee_614,Male,Black,1969,Supervisor,16471
+employee_615,Male,Black,1973,Supervisor,13328
+employee_616,Male,White,1967,Assembly Line Worker,11481
+employee_617,Male,White,1961,Assembly Line Worker,10392
+employee_618,Male,White,1953,Manager,30343
+employee_619,Female,White,1953,Upholstery Worker,8080
+employee_620,Male,White,1967,Assembly Line Worker,11215
+employee_621,Male,White,1957,Supervisor,17729
+employee_622,Male,White,1950,Supervisor,21247
+employee_623,Male,Other,1965,Assembly Line Worker,10591
+employee_624,Male,Black,1972,Supervisor,14236
+employee_625,Male,White,1969,Assembly Line Worker,8900
+employee_626,Female,White,1971,Assembly Line Worker,8661
+employee_627,Male,White,1968,Supervisor,18190
+employee_628,Male,White,1957,Manager,31826
+employee_629,Male,White,1950,Assembly Line Worker,14466
+employee_630,Male,Black,1951,Manager,26489
+employee_631,Female,White,1967,Upholstery Worker,6823
+employee_632,Male,White,1963,Supervisor,17581
+employee_633,Female,White,1960,Upholstery Worker,6943
+employee_634,Male,Black,1968,Supervisor,18839
+employee_635,Male,White,1969,Manager,24850
+employee_636,Male,Black,1955,Manager,27005
+employee_637,Male,Other,1951,Manager,30181
+employee_638,Male,White,1967,Manager,27899
+employee_639,Male,White,1962,Assembly Line Worker,10095
+employee_640,Female,Black,1972,Janitor,6185
+employee_641,Male,White,1966,Assembly Line Worker,11784
+employee_642,Male,White,1969,Supervisor,16621
+employee_643,Male,Black,1963,Assembly Line Worker,12402
+employee_644,Male,White,1962,Assembly Line Worker,12400
+employee_645,Male,White,1961,Manager,29887
+employee_646,Male,White,1970,Supervisor,13832
+employee_647,Male,White,1960,Manager,32834
+employee_648,Female,Black,1971,Upholstery Worker,6794
+employee_649,Female,Black,1970,Assembly Line Worker,9302
+employee_650,Male,White,1956,Assembly Line Worker,11331
+employee_651,Male,White,1951,Manager,25740
+employee_652,Male,White,1951,Assembly Line Worker,13613
+employee_653,Male,Black,1968,Assembly Line Worker,12645
+employee_654,Male,White,1960,Assembly Line Worker,10133
+employee_655,Male,White,1950,Manager,26636
+employee_656,Male,White,1967,Assembly Line Worker,11597
+employee_657,Male,White,1951,Supervisor,20465
+employee_658,Male,White,1966,Manager,21718
+employee_659,Male,White,1963,Manager,32783
+employee_660,Male,White,1953,Manager,31173
+employee_661,Male,Black,1961,Supervisor,19081
+employee_662,Male,White,1969,Manager,21311
+employee_663,Male,White,1973,Assembly Line Worker,10661
+employee_664,Male,White,1957,Assembly Line Worker,12858
+employee_665,Male,White,1961,Manager,33003
+employee_666,Male,White,1950,Assembly Line Worker,11800
+employee_667,Female,White,1965,Upholstery Worker,9530
+employee_668,Male,White,1970,Supervisor,14557
+employee_669,Male,Black,1958,Assembly Line Worker,9923
+employee_670,Male,Black,1964,Assembly Line Worker,13101
+employee_671,Male,White,1950,Supervisor,22294
+employee_672,Female,White,1973,Upholstery Worker,8422
+employee_673,Male,White,1972,Assembly Line Worker,11902
+employee_674,Female,White,1962,Upholstery Worker,7345
+employee_675,Male,White,1960,Manager,26579
+employee_676,Male,Black,1957,Manager,31078
+employee_677,Male,White,1952,Assembly Line Worker,10372
+employee_678,Female,White,1965,Upholstery Worker,7096
+employee_679,Male,White,1953,Assembly Line Worker,11092
+employee_680,Male,White,1955,Manager,28423
+employee_681,Male,White,1968,Manager,22732
+employee_682,Male,Black,1962,Supervisor,17715
+employee_683,Male,White,1957,Supervisor,17959
+employee_684,Female,White,1967,Upholstery Worker,7377
+employee_685,Male,White,1972,Supervisor,16104
+employee_686,Female,White,1961,Upholstery Worker,9180
+employee_687,Male,White,1964,Assembly Line Worker,8902
+employee_688,Male,Black,1954,Manager,34957
+employee_689,Male,White,1964,Manager,27062
+employee_690,Male,Black,1969,Supervisor,13923
+employee_691,Male,White,1956,Manager,27143
+employee_692,Male,White,1968,Supervisor,17691
+employee_693,Male,Black,1968,Supervisor,15407
+employee_694,Female,White,1964,Upholstery Worker,9314
+employee_695,Male,White,1950,Manager,27642
+employee_696,Female,White,1959,Upholstery Worker,8279
+employee_697,Male,White,1973,Manager,23016
+employee_698,Female,White,1967,Upholstery Worker,7175
+employee_699,Male,White,1967,Supervisor,18484
+employee_700,Male,Other,1968,Manager,28599
+employee_701,Male,White,1961,Assembly Line Worker,11115
+employee_702,Male,White,1955,Assembly Line Worker,10898
+employee_703,Male,White,1970,Assembly Line Worker,9719
+employee_704,Male,White,1966,Supervisor,17382
+employee_705,Male,Black,1969,Assembly Line Worker,8816
+employee_706,Male,White,1952,Assembly Line Worker,10876
+employee_707,Male,White,1963,Assembly Line Worker,9523
+employee_708,Male,Black,1970,Supervisor,14119
+employee_709,Female,White,1968,Upholstery Worker,9315
+employee_710,Male,White,1970,Supervisor,16725
+employee_711,Female,Black,1972,Assembly Line Worker,9372
+employee_712,Male,White,1964,Supervisor,17213
+employee_713,Male,White,1956,Manager,33791
+employee_714,Male,White,1953,Supervisor,16723
+employee_715,Male,White,1953,Supervisor,17963
+employee_716,Male,White,1960,Supervisor,16608
+employee_717,Male,Black,1962,Manager,28264
+employee_718,Male,White,1962,Manager,30556
+employee_719,Male,Black,1970,Supervisor,17881
+employee_720,Male,White,1953,Supervisor,20045
+employee_721,Male,White,1963,Supervisor,19181
+employee_722,Male,White,1973,Manager,27749
+employee_723,Male,White,1957,Assembly Line Worker,12877
+employee_724,Female,White,1973,Upholstery Worker,7790
+employee_725,Female,White,1971,Assembly Line Worker,11993
+employee_726,Male,White,1956,Supervisor,21171
+employee_727,Male,White,1951,Supervisor,18585
+employee_728,Male,White,1962,Supervisor,14841
+employee_729,Male,White,1966,Assembly Line Worker,10277
+employee_730,Male,Black,1969,Supervisor,13954
+employee_731,Male,White,1973,Assembly Line Worker,11085
+employee_732,Male,White,1972,Supervisor,15297
+employee_733,Male,White,1959,Supervisor,17066
+employee_734,Male,White,1956,Manager,27120
+employee_735,Male,White,1960,Manager,28503
+employee_736,Female,White,1953,Upholstery Worker,10710
+employee_737,Male,White,1953,Assembly Line Worker,9987
+employee_738,Male,White,1962,Manager,31201
+employee_739,Male,Black,1951,Assembly Line Worker,14315
+employee_740,Male,Black,1952,Supervisor,20006
+employee_741,Male,Black,1959,Assembly Line Worker,13646
+employee_742,Male,White,1957,Manager,33503
+employee_743,Male,White,1957,Assembly Line Worker,9715
+employee_744,Female,Black,1972,Upholstery Worker,8203
+employee_745,Male,White,1968,Manager,27408
+employee_746,Male,Black,1959,Manager,28298
+employee_747,Male,White,1955,Assembly Line Worker,12276
+employee_748,Male,White,1951,Manager,28887
+employee_749,Male,Black,1952,Supervisor,17532
+employee_750,Male,White,1950,Supervisor,19777
+employee_751,Male,White,1954,Manager,26594
+employee_752,Male,White,1957,Assembly Line Worker,12874
+employee_753,Male,White,1972,Manager,27806
+employee_754,Male,White,1973,Supervisor,13121
+employee_755,Male,Black,1962,Supervisor,19867
+employee_756,Male,White,1971,Assembly Line Worker,10519
+employee_757,Male,Black,1965,Supervisor,17076
+employee_758,Male,White,1973,Manager,23387
+employee_759,Male,Black,1969,Assembly Line Worker,8789
+employee_760,Male,White,1955,Assembly Line Worker,12974
+employee_761,Male,White,1967,Supervisor,17818
+employee_762,Male,White,1964,Manager,22684
+employee_763,Male,White,1962,Assembly Line Worker,12334
+employee_764,Male,Other,1957,Supervisor,19591
+employee_765,Male,White,1971,Supervisor,16903
+employee_766,Male,Black,1955,Manager,31635
+employee_767,Male,White,1955,Manager,28217
+employee_768,Male,White,1953,Manager,32337
+employee_769,Male,White,1957,Assembly Line Worker,9430
+employee_770,Male,White,1956,Supervisor,18922
+employee_771,Male,Black,1961,Supervisor,16946
+employee_772,Female,White,1950,Upholstery Worker,10459
+employee_773,Male,White,1971,Manager,28343
+employee_774,Male,Black,1951,Manager,34832
+employee_775,Male,White,1968,Assembly Line Worker,8502
+employee_776,Female,Black,1970,Upholstery Worker,6909
+employee_777,Female,White,1969,Upholstery Worker,7530
+employee_778,Male,White,1952,Assembly Line Worker,12014
+employee_779,Male,Black,1950,Assembly Line Worker,13797
+employee_780,Male,White,1967,Manager,22991
+employee_781,Female,White,1973,Upholstery Worker,6422
+employee_782,Male,White,1955,Assembly Line Worker,11072
+employee_783,Male,Other,1969,Manager,26223
+employee_784,Female,White,1952,Upholstery Worker,8825
+employee_785,Male,White,1964,Assembly Line Worker,9175
+employee_786,Male,Black,1955,Manager,34220
+employee_787,Male,White,1963,Manager,29776
+employee_788,Male,Black,1956,Assembly Line Worker,14120
+employee_789,Female,Black,1972,Upholstery Worker,6524
+employee_790,Male,White,1954,Manager,29604
+employee_791,Female,Black,1972,Assembly Line Worker,11746
+employee_792,Male,Black,1961,Supervisor,18109
+employee_793,Male,White,1971,Manager,30609
+employee_794,Male,White,1970,Assembly Line Worker,9850
+employee_795,Male,White,1973,Manager,21443
+employee_796,Male,White,1971,Supervisor,14334
+employee_797,Male,White,1954,Assembly Line Worker,13243
+employee_798,Male,White,1961,Manager,32490
+employee_799,Female,White,1952,Upholstery Worker,7946
+employee_800,Female,White,1951,Upholstery Worker,10440
+employee_801,Male,Black,1957,Assembly Line Worker,12817
+employee_802,Male,Black,1959,Manager,34109
+employee_803,Male,White,1957,Supervisor,18895
+employee_804,Female,Other,1973,Upholstery Worker,6120
+employee_805,Male,White,1959,Supervisor,16166
+employee_806,Male,White,1970,Manager,21803
+employee_807,Male,White,1968,Assembly Line Worker,11795
+employee_808,Male,White,1970,Supervisor,17904
+employee_809,Male,White,1965,Assembly Line Worker,12871
+employee_810,Female,Other,1972,Upholstery Worker,6277
+employee_811,Male,Black,1954,Assembly Line Worker,11993
+employee_812,Male,White,1967,Supervisor,17226
+employee_813,Male,White,1965,Supervisor,15941
+employee_814,Male,White,1971,Manager,25266
+employee_815,Male,Black,1954,Assembly Line Worker,13047
+employee_816,Female,White,1962,Upholstery Worker,7505
+employee_817,Male,White,1973,Manager,23047
+employee_818,Male,White,1950,Manager,35995
+employee_819,Male,Other,1968,Manager,23308
+employee_820,Female,White,1965,Upholstery Worker,8958
+employee_821,Male,White,1969,Assembly Line Worker,11547
+employee_822,Female,Black,1971,Assembly Line Worker,11094
+employee_823,Male,White,1963,Supervisor,16106
+employee_824,Male,White,1967,Manager,31117
+employee_825,Female,White,1960,Upholstery Worker,8041
+employee_826,Male,White,1955,Manager,31802
+employee_827,Male,White,1955,Supervisor,18889
+employee_828,Male,White,1951,Manager,24668
+employee_829,Female,White,1971,Assembly Line Worker,8438
+employee_830,Male,White,1962,Supervisor,18047
+employee_831,Male,White,1969,Manager,23298
+employee_832,Male,White,1973,Supervisor,13430
+employee_833,Female,White,1959,Upholstery Worker,8390
+employee_834,Male,White,1969,Manager,27122
+employee_835,Male,White,1957,Manager,24971
+employee_836,Female,White,1966,Upholstery Worker,9604
+employee_837,Male,Black,1968,Manager,29156
+employee_838,Female,Other,1973,Janitor,6590
+employee_839,Male,White,1951,Supervisor,18802
+employee_840,Male,White,1963,Manager,24427
+employee_841,Male,Black,1963,Assembly Line Worker,12688
+employee_842,Male,White,1973,Manager,22075
+employee_843,Male,White,1957,Assembly Line Worker,10504
+employee_844,Male,Black,1967,Supervisor,16008
+employee_845,Female,White,1951,Upholstery Worker,10046
+employee_846,Male,White,1971,Supervisor,17083
+employee_847,Male,White,1950,Manager,25812
+employee_848,Female,Black,1973,Upholstery Worker,7938
+employee_849,Male,White,1973,Manager,24467
+employee_850,Female,Black,1970,Assembly Line Worker,9350
+employee_851,Male,Black,1959,Supervisor,16037
+employee_852,Male,White,1972,Supervisor,18093
+employee_853,Male,White,1965,Assembly Line Worker,12068
+employee_854,Male,Other,1959,Supervisor,20626
+employee_855,Male,White,1971,Manager,23304
+employee_856,Male,White,1964,Supervisor,14443
+employee_857,Male,Black,1973,Assembly Line Worker,11826
+employee_858,Female,Black,1973,Upholstery Worker,6900
+employee_859,Male,White,1972,Supervisor,13355
+employee_860,Male,White,1965,Supervisor,15628
+employee_861,Male,Black,1953,Supervisor,16303
+employee_862,Male,Black,1965,Supervisor,16706
+employee_863,Male,White,1965,Assembly Line Worker,9791
+employee_864,Male,White,1970,Manager,27808
+employee_865,Male,White,1954,Assembly Line Worker,12358
+employee_866,Male,White,1965,Manager,32426
+employee_867,Male,White,1953,Manager,26048
+employee_868,Male,White,1966,Manager,31842
+employee_869,Male,Black,1956,Supervisor,20360
+employee_870,Male,Black,1970,Manager,30681
+employee_871,Male,White,1956,Manager,32572
+employee_872,Female,Black,1971,Upholstery Worker,7915
+employee_873,Female,White,1960,Upholstery Worker,7177
+employee_874,Male,Black,1957,Manager,33259
+employee_875,Male,White,1957,Manager,33831
+employee_876,Female,Black,1970,Janitor,5806
+employee_877,Female,White,1950,Upholstery Worker,10885
+employee_878,Male,White,1965,Supervisor,15777
+employee_879,Male,White,1967,Supervisor,16908
+employee_880,Male,White,1972,Manager,27949
+employee_881,Male,White,1959,Manager,32707
+employee_882,Male,White,1953,Supervisor,17638
+employee_883,Male,White,1963,Assembly Line Worker,10615
+employee_884,Male,White,1962,Supervisor,16707
+employee_885,Male,White,1959,Manager,26134
+employee_886,Male,White,1956,Manager,28048
+employee_887,Male,White,1955,Manager,28193
+employee_888,Male,Black,1951,Supervisor,21809
+employee_889,Female,Black,1971,Upholstery Worker,8144
+employee_890,Female,Black,1972,Upholstery Worker,8274
+employee_891,Male,White,1972,Supervisor,13689
+employee_892,Male,White,1965,Supervisor,18692
+employee_893,Male,White,1963,Manager,28028
+employee_894,Male,White,1972,Supervisor,17951
+employee_895,Male,White,1958,Manager,26341
+employee_896,Male,White,1958,Manager,28676
+employee_897,Male,Black,1954,Assembly Line Worker,11635
+employee_898,Male,White,1956,Supervisor,21059
+employee_899,Male,Black,1962,Manager,31588
+employee_900,Male,Other,1958,Supervisor,18278
+employee_901,Male,White,1958,Manager,25133
+employee_902,Male,White,1968,Supervisor,16081
+employee_903,Male,White,1963,Supervisor,19084
+employee_904,Male,White,1956,Assembly Line Worker,13317
+employee_905,Female,White,1970,Upholstery Worker,7785
+employee_906,Female,White,1967,Upholstery Worker,7257
+employee_907,Male,White,1960,Assembly Line Worker,9074
+employee_908,Male,Black,1954,Manager,29212
+employee_909,Female,Black,1972,Assembly Line Worker,10015
+employee_910,Female,White,1955,Upholstery Worker,10460
+employee_911,Male,Black,1964,Assembly Line Worker,8864
+employee_912,Female,White,1969,Upholstery Worker,7034
+employee_913,Male,White,1962,Assembly Line Worker,11119
+employee_914,Female,White,1969,Upholstery Worker,8388
+employee_915,Male,Black,1973,Manager,23427
+employee_916,Male,White,1953,Manager,24112
+employee_917,Female,White,1964,Upholstery Worker,8659
+employee_918,Male,White,1954,Manager,29263
+employee_919,Male,Black,1956,Manager,24300
+employee_920,Male,Other,1951,Supervisor,19093
+employee_921,Female,White,1969,Upholstery Worker,7485
+employee_922,Female,White,1954,Upholstery Worker,10154
+employee_923,Male,White,1964,Manager,30444
+employee_924,Male,White,1968,Supervisor,17996
+employee_925,Male,Black,1967,Assembly Line Worker,8878
+employee_926,Male,White,1956,Assembly Line Worker,11224
+employee_927,Male,White,1972,Supervisor,17566
+employee_928,Male,Black,1954,Supervisor,18860
+employee_929,Male,White,1963,Manager,25518
+employee_930,Male,White,1969,Supervisor,17023
+employee_931,Female,Black,1973,Assembly Line Worker,10243
+employee_932,Male,Black,1961,Manager,33381
+employee_933,Male,Black,1966,Manager,27378
+employee_934,Male,White,1954,Supervisor,18061
+employee_935,Male,White,1972,Assembly Line Worker,11873
+employee_936,Male,White,1952,Supervisor,20481
+employee_937,Male,Black,1962,Supervisor,19082
+employee_938,Female,Black,1973,Upholstery Worker,7656
+employee_939,Male,White,1970,Supervisor,14289
+employee_940,Male,Black,1951,Manager,36105
+employee_941,Male,White,1973,Manager,24543
+employee_942,Male,White,1966,Assembly Line Worker,10150
+employee_943,Female,Black,1971,Assembly Line Worker,8830
+employee_944,Female,Black,1971,Upholstery Worker,8735
+employee_945,Female,White,1969,Upholstery Worker,8556
+employee_946,Male,White,1957,Supervisor,16816
+employee_947,Male,White,1951,Assembly Line Worker,12319
+employee_948,Male,White,1968,Assembly Line Worker,12230
+employee_949,Female,White,1955,Upholstery Worker,10655
+employee_950,Male,White,1956,Supervisor,18238
+employee_951,Male,Black,1958,Manager,29700
+employee_952,Female,White,1964,Upholstery Worker,7144
+employee_953,Male,White,1963,Supervisor,19181
+employee_954,Male,White,1973,Supervisor,15249
+employee_955,Male,White,1959,Manager,30982
+employee_956,Male,White,1960,Assembly Line Worker,9537
+employee_957,Female,White,1955,Upholstery Worker,7180
+employee_958,Male,White,1961,Assembly Line Worker,11330
+employee_959,Male,White,1968,Assembly Line Worker,10976
+employee_960,Male,White,1962,Supervisor,14648
+employee_961,Male,Black,1973,Manager,20836
+employee_962,Male,Black,1952,Supervisor,16738
+employee_963,Male,White,1954,Manager,35153
+employee_964,Male,White,1965,Supervisor,14631
+employee_965,Male,Black,1970,Manager,25586
+employee_966,Male,White,1971,Assembly Line Worker,12188
+employee_967,Female,White,1954,Upholstery Worker,7316
+employee_968,Male,White,1958,Assembly Line Worker,11248
+employee_969,Male,Black,1962,Manager,23270
+employee_970,Male,White,1952,Supervisor,21561
+employee_971,Male,Other,1953,Assembly Line Worker,13367
+employee_972,Female,White,1970,Assembly Line Worker,11215
+employee_973,Female,Other,1973,Janitor,5052
+employee_974,Female,White,1960,Upholstery Worker,7444
+employee_975,Male,White,1972,Supervisor,17386
+employee_976,Male,White,1955,Assembly Line Worker,11745
+employee_977,Male,Black,1973,Manager,24547
+employee_978,Male,Black,1961,Manager,30361
+employee_979,Male,White,1966,Assembly Line Worker,9896
+employee_980,Male,Black,1953,Assembly Line Worker,14521
+employee_981,Male,White,1963,Manager,24393
+employee_982,Male,White,1955,Manager,28676
+employee_983,Male,White,1957,Manager,32338
+employee_984,Female,Black,1970,Assembly Line Worker,10274
+employee_985,Male,White,1970,Supervisor,17204
+employee_986,Female,Black,1971,Assembly Line Worker,8287
+employee_987,Male,Black,1972,Assembly Line Worker,12078
+employee_988,Female,White,1966,Upholstery Worker,7195
+employee_989,Male,Black,1972,Supervisor,15434
+employee_990,Male,White,1968,Assembly Line Worker,10336
+employee_991,Male,White,1967,Assembly Line Worker,11887
+employee_992,Male,Black,1958,Manager,24475
+employee_993,Female,Black,1973,Janitor,6852
+employee_994,Male,White,1950,Assembly Line Worker,10275
+employee_995,Male,White,1956,Assembly Line Worker,11523
+employee_996,Male,White,1968,Manager,25748
+employee_997,Male,White,1958,Manager,24153
+employee_998,Male,Black,1958,Assembly Line Worker,9533
+employee_999,Male,White,1973,Supervisor,13823
+employee_1000,Male,Black,1967,Supervisor,14712
