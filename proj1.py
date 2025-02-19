@@ -69,7 +69,14 @@ def count_race_and_gender(employees):
     """
     Count the number of employees within each combination of race and gender.
     """
-    pass
+    raceAndGenderCount = {}
+    for i, j in employees.items():
+        combo = j["race"] + "_" + j["gender"]
+        if combo in raceAndGenderCount:
+            raceAndGenderCount[combo] = 1
+        else:
+            raceAndGenderCount[combo] += 1
+    return raceAndGenderCount
 
 
 def csv_writer(data, filename):
@@ -129,11 +136,21 @@ class TestEmployeeDataAnalysis(unittest.TestCase):
     def test_count_race_or_gender(self):
         # Your test code for count_race_or_gender goes here
         tested = count_race_or_gender(self.testData)
+        self.assertEqual(len(tested), 2)
         self.assertCountEqual(tested["race"], {"White": 3, "Black": 2, "Other": 1})
         self.assertCountEqual(tested["gender"], {"Male": 5, "Female": 1})
 
     def test_count_race_and_gender(self):
         # Your test code for count_race_and_gender goes here
+        tested = count_race_and_gender(self.testData)
+        self.assertEqual(len(tested), 4)
+        
+        self.assertEqual(tested, {
+            "Black_Male": 1,
+            "White_Male": 3,
+            "Black_Female": 1,
+            "Other_Male": 1
+        })
         pass
 
     def test_reduce_company_costs(self):
@@ -149,10 +166,10 @@ def main():
 
     # Task 1: Split employees by hire year
     employees_before_1964, employees_after_1964 = split_by_hire_year(employee_data, 1964)
-
-#     # Task 2: Count employees by race or gender before and after layoffs
-#     race_gender_counts_total = count_race_or_gender(employee_data)
-#     race_gender_counts_after_layoffs = count_race_or_gender(employees_before_1964)
+    
+    # Task 2: Count employees by race or gender before and after layoffs
+    race_gender_counts_total = count_race_or_gender(employee_data)
+    race_gender_counts_after_layoffs = count_race_or_gender(employees_before_1964)
 
 #     # Task 3: Count employees by race and gender combinations before and after layoffs
 #     gendered_race_counts_total = count_race_and_gender(employee_data)
