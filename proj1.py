@@ -74,7 +74,8 @@ def count_race_and_gender(employees):
             raceAndGenderCount[combo] += 1
         else:
             raceAndGenderCount[combo] = 1
-    return raceAndGenderCount
+    raceAndGenderCountSorted = dict(sorted(raceAndGenderCount.items(), key=lambda item: item[1], reverse=True))
+    return raceAndGenderCountSorted
 
 
 def csv_writer(data, filename):
@@ -87,7 +88,7 @@ def csv_writer(data, filename):
         for i, j in data.items():
             writer.writerow([i, j])
 
-    pass
+    
 
 def reduce_company_costs(employees, target_reduction):
     """
@@ -167,12 +168,12 @@ class TestEmployeeDataAnalysis(unittest.TestCase):
         self.assertEqual(len(tested), 4)
         
         self.assertEqual(tested, {
-            "Black_Male": 1,
             "White_Male": 3,
+            "Black_Male": 1,
             "Black_Female": 1,
             "Other_Male": 1
         })
-        pass
+        
 
     def test_reduce_company_costs(self):
         employees = csv_reader("GM_employee_data_extra_credit.csv")
