@@ -9,6 +9,7 @@
 import os
 import csv
 import unittest
+import random
 
 def csv_reader(filename):
     """
@@ -22,7 +23,9 @@ def csv_reader(filename):
             employees[id] = {
                 "gender": i["gender"],
                 "race": i["race"],
-                "hire_year": int(i["hire_year"])
+                "hire_year": int(i["hire_year"]),
+                'role': i.get('role'),
+                'salary': int(i['salary']) if i.get('salary') and i['salary'].isdigit() else 0
             }
     return employees
     
@@ -86,13 +89,35 @@ def csv_writer(data, filename):
 
     pass
 
-
 def reduce_company_costs(employees, target_reduction):
     """
     EXTRA CREDIT OPTION ONE
     Create your own algorithm to reduce company payroll costs. 
     """
-    pass
+    actualReduction = 0
+    employeesSorted = sorted(employees.items(), key=lambda x: x[1]['hire_year'], reverse=True)
+
+    for i, j in employeesSorted:
+
+        j["salary"] -= j["salary"] * .2
+        actualReduction + j["salary"] * .2
+        if (j["role"] == "Manager" or j["role"] == "Supervisor") and j["hire_year"] >= 1970:
+            j["salary"] -= j["salary"] * .5
+            actualReduction += j["salary"] * .5
+        elif j["hire_year"] >= 1970 and j["salary"] >= 10000:
+            j["salary"] -= j["salary"] * .5
+            actualReduction += j["salary"] * .5
+        elif j["role"] == "Janitor" or j["role"] == "Assembly Line Worker" or j["role"] == "Upholstery Worker":
+            if j["hire_year"] >= 1970:
+                j["salary"] = 0
+                actualReduction += j["salary"]
+            elif random.randint(1, 3) == 1:
+                j["salary"] = 0
+                actualReduction += j["salary"]
+        if actualReduction >= target_reduction:
+            break
+        
+    return employees
 
 
 class TestEmployeeDataAnalysis(unittest.TestCase):
@@ -150,9 +175,25 @@ class TestEmployeeDataAnalysis(unittest.TestCase):
         pass
 
     def test_reduce_company_costs(self):
-        # Your test code for reduce_company_costs goes here
-        pass
+        employees = csv_reader("GM_employee_data_extra_credit.csv")
+        totalBefore = sum(x['salary'] for x in employees.values())
+        cuts = reduce_company_costs(employees, 5000000)
+        totalAfter = sum(x['salary'] for x in cuts.values())
+        self.assertGreaterEqual(totalBefore - totalAfter, 5000000)
 
+        for i, j in cuts.items():
+            salary = j['salary']
+            self.assertTrue(salary == 0 or salary >= 5000)
+
+        employees2 = csv_reader("GM_employee_data_extra_credit.csv")
+        totalBefore2 = sum(x['salary'] for x in employees2.values())
+        cuts2 = reduce_company_costs(employees2, 6000000)
+        totalAfter2 = sum(x['salary'] for x in cuts2.values())
+        self.assertGreaterEqual(totalBefore2 - totalAfter2, 6000000)
+
+        for i, j in cuts2.items():
+            salary = j['salary']
+            self.assertTrue(salary == 0 or salary >= 5000)
 
 
 
@@ -213,7 +254,7 @@ def main():
 
 if __name__ == "__main__":
     # Uncomment the following line to run the unittests
-    #unittest.main(verbosity=2)
+    unittest.main(verbosity=2)
     
     main()
 
